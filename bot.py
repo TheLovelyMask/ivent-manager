@@ -1,8 +1,3 @@
-import discord
-from discord.ext import commands
-import sqlite3
-import uuid
-
 intents = discord.Intents.all()
 intents.members = True
 intents.messages = True
