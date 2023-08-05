@@ -274,4 +274,4 @@ async def claim(ctx, payment_type: str):
         available_payment_types = ', '.join(payments.keys())
         await ctx.send(f'{ctx.author.mention}, указанный тип выплаты не существует. Доступные типы: {available_payment_types}')
 
-client.run('YOUR_BOT_TOKEN')
+client.run('MTEzNzUwMjM3MTMwODYzODMxMA.GS8Ycm.ISDI-RiMhp3uUTiQG655T9N7v4Lu-jchqSwpyI')
